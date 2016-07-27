@@ -1,5 +1,5 @@
 {
-  "name": "poseidon-builders",
+  "name": "noodlecrate-poseidon-builders",
   "version": "0.0.1-alpha.1",
   "description": "Builders for objects in Noodlecrate's Poseidon platform.",
   "main": "build/index.js",
