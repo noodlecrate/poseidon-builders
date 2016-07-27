@@ -1,0 +1,26 @@
+{
+  "name": "poseidon-builders",
+  "version": "0.0.1-alpha.1",
+  "description": "Builders for objects in Noodlecrate's Poseidon platform.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noodlecrate/poseidon-test.git"
+  },
+  "author": "Noodlecrate (https://github.com/noodlecrate)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noodlecrate/poseidon-test/issues"
+  },
+  "homepage": "https://github.com/noodlecrate/poseidon-test#readme",
+  "dependencies": {
+    "noodlecrate-poseidon": "0.0.1-alpha.1"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
