@@ -1,7 +1,7 @@
 {
-  "name": "noodlecrate-poseidon-builders",
+  "name": "noodlecrate-poseidon-entities-builders",
   "version": "0.0.1-alpha.3",
-  "description": "Builders for objects in Noodlecrate's Poseidon platform.",
+  "description": "Builders for entities from Noodlecrate's Poseidon platform.",
   "main": "./build/index.js",
   "typings": "./typings.d.ts",
   "scripts": {
