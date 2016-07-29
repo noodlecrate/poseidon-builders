@@ -1,7 +1,4 @@
-/// <reference path="../../typings/index.d.ts" />
-
-const Poseidon = require('noodlecrate-poseidon');
-const BrandModel = Poseidon.Models.BrandModel;
+import { Models } from 'noodlecrate-poseidon-entities';
 
 export class BrandModelBuilder {
 
@@ -23,8 +20,8 @@ export class BrandModelBuilder {
         return this;
     }
 
-    public build(): Object /*BrandModel*/ {
-        let model = new BrandModel();
+    public build(): Models.BrandModel {
+        let model = new Models.BrandModel();
 
         model.id = this._id;
         model.name = this._name;
