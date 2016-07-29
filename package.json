@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/noodlecrate/poseidon-test#readme",
   "dependencies": {
-    "noodlecrate-poseidon": "0.0.1-alpha.2",
     "noodlecrate-poseidon-entities": "0.0.1-alpha.2"
   },
   "devDependencies": {
