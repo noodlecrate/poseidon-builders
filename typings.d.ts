@@ -10,4 +10,12 @@ export namespace Models {
 
     }
 
+    export class NoodleModelBuilder {
+
+        public withId(id: number): NoodleModelBuilder;
+        public withName(name: string): NoodleModelBuilder;
+        public build(): EntityModels.NoodleModel;
+
+    }
+
 }
