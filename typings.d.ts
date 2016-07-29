@@ -18,4 +18,16 @@ export namespace Models {
 
     }
 
+    export class UserModelBuilder {
+
+        public withId(id: number): UserModelBuilder;
+        public withUsername(username: string): UserModelBuilder;
+        public withPassword(password: string): UserModelBuilder;
+        public withFirstName(firstName: string): UserModelBuilder;
+        public withLastName(lastName: string): UserModelBuilder;
+        public withProfileImage(profileImage: string): UserModelBuilder;
+        public build(): EntityModels.UserModel;
+
+    }
+
 }

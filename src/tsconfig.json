@@ -24,7 +24,8 @@
         "index.ts",
         "models/_namespace.ts",
         "models/brand-model.builder.ts",
-        "models/noodle-model.builder.ts"
+        "models/noodle-model.builder.ts",
+        "models/user-model.builder.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
