@@ -30,4 +30,15 @@ export namespace Models {
 
     }
 
+    export class ReviewModelBuilder {
+
+        public withId(id: number): ReviewModelBuilder;
+        public withAuthor(author: EntityModels.UserModel): ReviewModelBuilder;
+        public withTitle(title: string): ReviewModelBuilder;
+        public withBody(body: string): ReviewModelBuilder;
+        public withImageUrl(imageUrl: string): ReviewModelBuilder;
+        public build(): EntityModels.ReviewModel
+
+    }
+
 }
