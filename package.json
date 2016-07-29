@@ -2,7 +2,8 @@
   "name": "noodlecrate-poseidon-builders",
   "version": "0.0.1-alpha.2",
   "description": "Builders for objects in Noodlecrate's Poseidon platform.",
-  "main": "build/index.js",
+  "main": "./build/index.js",
+  "typings": "./typings.d.ts",
   "scripts": {
     "build": "tsc -p src",
     "prepublish": "npm run build"
